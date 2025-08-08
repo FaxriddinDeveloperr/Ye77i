@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+.hero__container{
+    max-width: 1746px;
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: 30px;
+    background-color: #F2F2F2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container{
+    max-width: 1333px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
