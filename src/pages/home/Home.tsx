@@ -1,16 +1,18 @@
 import React from "react";
 import Hero from "../../components/hero/Hero";
 import Features from "../../components/features/Features";
+import Category from "../../components/category/Category";
 import ProductView from "../../components/product-view/ProductView";
 import Brands from "../../components/brands/Brands";
 
 const Home = () => {
   return (
     <div>
-      <Hero/>
-      <Features/>
-      <ProductView/>
-      <Brands/>
+      <Hero />
+      <Features />
+      <Category />
+      <ProductView />
+      <Brands />
     </div>
   );
 };
